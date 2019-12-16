@@ -1,0 +1,51 @@
+IFSC=====>  /\A[A-Za-z]{4}+[0]{1}[0-9]{6}\Z/.match('CORP0111111PA')
+PAN CARD=====>/\A [A-Z]{5}[0-9]{4}[A-Z]\Z/.match(''DEVYA9875A)
+EMAIL===>/\A[a-z 0-9 . _]+[@]{1}[a-z]+[.]{1}[a-z]+\Z/.match('pandedevyanigdhdh8@gmail.com')
+GST No===>/\A[0-35]{2}[A-Z]{5}[0-9]{4}[A-Z][0-9][Z][a-z A-Z 0-9]{1}\Z/.match('32AAUFR3713P2ZM')
+
+1. wap to display number is prime or not
+2. WAP for students to print their school level according to grade
+e.g -
+if grade is between 1-5 return elementary
+if grade is between 6-8 return middle school
+if grade is between 9-12 return high school
+if grade is between otherwise return college
+3. Print a-z in reverse order
+4. Regex for mobile number, email address, name, gender(M / F) and  amount
+if a<=5 and a>1
+	puts "elementry"
+elsif a<=8 and a>6
+	puts "Middle School"
+elsif a>9 and a<=12
+	puts "High School"
+else
+	puts "College"
+
+$i=0
+while $i<26 do
+puts "#i"
+$i++
+end
+
+$i=26
+$n=89
+while $i< $n do
+puts ("#$i")
+$i+=1
+end
+
+
+
+# Ruby program to print the reverse 
+# order using the range operator 
+
+#!/usr/bin/ruby 
+
+# using ranges 
+# but it will not give any output 
+puts ('Z'....'u').to_a 
+
+# using reverse() method which will 
+# print given range in the reverse order 
+puts ('u'....'Z').to_a.reverse 
+
